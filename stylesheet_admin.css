@@ -1,0 +1,124 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+
+#main_pages{
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	background-color:lightgray;
+}
+
+#header_id{
+	margin-left: 10px;
+	margin-right:10px;
+	height:60px;
+	background-color:lightblue;
+}
+
+#header_id a{
+	text-decoration:none;
+	color:white;
+}
+
+#image{
+	width:40px;
+	height:40px;
+	float:left;
+	margin:10px 10px 10px 10px;
+}
+
+#heading{
+	text-align:center;
+	color:white;
+	padding:10px;
+}
+
+#nav_page{
+	margin-left: 10px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:5px;
+	height:35px;
+	background-color:lightpink;
+}
+
+#nav_page ul{
+	list-style:none;
+	padding:10px;
+	/*text-align:left;*/
+}
+
+#nav_page  ul li{
+	margin-left:20px;
+	margin-right:10px;
+	display:inline;
+}
+
+#nav_page ul li a{
+	text-decoration:none;
+}
+
+#nav_page ul li a:hover{
+	background-color:white
+}
+
+#signing{
+	float:right;
+}
+.main_page{
+	margin-left: 260px;
+	margin-top:5px;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding:20px;
+	height:500px;      
+	background-color:lightblue;
+}
+
+.side_page{
+	margin-left: 5px;
+	margin-right:10px;
+	padding:20px;
+	height:500px;
+	width:200px;
+	background-color:red;
+	float: left;
+	clear: left;
+}
+
+.footer_page{
+	margin:10px;
+	height:100px;
+	background-color:lightpink;
+}
+
+#side_admin ul{
+	list-style:none;
+}
+
+#side_admin ul li{
+	/*background-color:gray;*/
+	width:150px;
+	height:35px;
+	text-align:center;
+	margin-bottom:2px;
+}
+
+#side_admin ul li a{
+	text-decoration:none;
+	display:block;
+	color:white;
+}
+#side_admin ul li a:hover{
+	background-color:skyblue;
+	height:35px;
+	display:block;
+	color:white;
+	text-align:center;
+	margin-bottom:2px;
+}
+#dashboard{
+	background-color:skyblue;
+}
