@@ -21,7 +21,6 @@
 		     <li><a href="../index.php">Home</a></li>
 			 <li><a href="../about.php">About Us</a></li>
 			 <li><a href="../faith.php">Faith Formation</a></li>
-			 
 			 <li id="signing"><a href="../signin.php">Sign In</a></li>
 			 <li id="signing"><a href="../signup.php">Sign Up</a></li>
 		   </ul>
@@ -83,7 +82,7 @@
 	   
 	  <!--footer-->
 	   <div class="footer_page">
-	      <h3 id="footer_home">@Copy Right 2017 Living Church</h3>
+	      <h3 id="footer_home">@Copy Right 2017 Great Commession Church</h3>
 	   </div>
 	   
 	 </div>

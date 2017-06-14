@@ -21,7 +21,7 @@
 		     <li><a href="../index.php">Home</a></li>
 			 <li><a href="../about.php">About Us</a></li>
 			 <li><a href="../faith.php">Faith Formation</a></li>
-			 <li><a href="../status.php">Check Status</a></li>
+			 
 			 <li id="signing"><a href="../include/logout.php">Sign Out</a></li>
 		   </ul>
 	      </nav>
@@ -45,6 +45,9 @@
 	   <div class="main_page">
 	      <form method="post" action="subscription.php">
 		    <table width="100%" border="1px">
+			  <tr>
+				   <td colspan="4" align="center"><h3>Subsriber Management Section</h3></td>
+			  </tr>
 			  <tr>
 			    <td>ID</td>
 				<td>User Name</td>

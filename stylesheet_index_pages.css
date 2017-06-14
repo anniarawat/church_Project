@@ -83,7 +83,15 @@
 	height:500px;      
 	background-color:lightblue;
 }
-
+.main_page_index{
+	margin-left: 10px;
+	margin-top:5px;
+	margin-right:310px;
+	margin-bottom:10px;
+	padding:20px;
+	height:100%;      
+	background-color:lightblue;
+}
 #request a{
 	text-decoration:none;
 	display:block;
@@ -106,11 +114,66 @@
 	margin-right:310px;
 	margin-bottom:10px;
 	padding:20px;
-	height:3500px;      
+	height:500px;      
 	background-color:lightblue;
 }
 
+.faith_page_image{
+	margin-left:10px;
+	margin-bottom:5px;
+	margin-right:310px;
+	margin-top:5px;
+	padding:20px;
+	height:400px;
+	background-color:lightblue;
+}
 
+.faith_page_image_x{
+	margin-left:10px;
+	margin-bottom:5px;
+	margin-right:310px;
+	margin-top:5px;
+	padding:20px;
+	height:3500px;
+	background-color:lightblue;
+}
+
+.faith_page_video_x{
+	margin-left:10px;
+	margin-bottom:5px;
+	margin-right:310px;
+	margin-top:5px;
+	padding:20px;
+	height:1200px;
+	background-color:lightblue;
+}
+.faith_page_audio_x{
+	margin-left:10px;
+	margin-bottom:5px;
+	margin-right:310px;
+	margin-top:5px;
+	padding:20px;
+	height:300px;
+	background-color:lightblue;
+}
+.faith_page_video{
+	margin-left:10px;
+	margin-bottom:5px;
+	margin-right:310px;
+	margin-top:5px;
+	padding:20px;
+	height:400px;
+	background-color:lightblue;
+}
+.faith_page_audio{
+	margin-left:10px;
+	margin-bottom:5px;
+	margin-right:310px;
+	margin-top:5px;
+	padding:20px;
+	height:100px;
+	background-color:lightblue;
+}
 .side_page{
 	margin-left: 5px;
 	margin-right:10px;

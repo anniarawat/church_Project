@@ -21,7 +21,7 @@
 		     <li><a href="../index.php">Home</a></li>
 			 <li><a href="../about.php">About Us</a></li>
 			 <li><a href="../faith.php">Faith Formation</a></li>
-			 <li><a href="../status.php">Check Status</a></li>
+			 
 			 <li id="signing"><a href="../include/logout.php">Sign Out</a></li>
 		   </ul>
 	      </nav>
@@ -33,7 +33,6 @@
 		    <ul>
 		      <li><a href="adminpage.php">Manage Event</a></li>
 			  <li><a href="request.php">Manage Request</a></li>
-			 
 			  <li><a href="subscription.php">View Subscription</a></li>
 			  <li><a href="viewuser.php">View User</a></li>
 			  <li><a href="appointment.php">Preist Appointment</a></li>
@@ -44,7 +43,9 @@
 	   <!--body parts-->
 	   <div class="main_page">
 	     <table width="100%" border="1">
-	       
+	        <tr>
+			   <td colspan="10" align="center"><h3>User Register</h3></td>
+			</tr>
     		<tr>
 			  <td>S.N.</td>
 			  <td>Name</td>

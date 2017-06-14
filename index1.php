@@ -21,17 +21,17 @@
 	   <div>
 	     <nav id="nav_page">
 	       <ul>
-		     <li><a href="index.php">Home</a></li>
-			 <li><a href="about.php">About Us</a></li>
-			 <li><a href="faith.php">Faith Formation</a></li>
-			 <li id="signing"><a href="signin.php">Sign In</a></li>
+		     <li><a href="index1.php">Home</a></li>
+			 <li><a href="include/about1.php">About Us</a></li>
+			 <li><a href="include/faith1.php">Faith Formation</a></li>
+			 <li id="signing"><a href="include/signout1.php">Sign Out</a></li>
 			 <li id="signing"><a href="signup.php">Sign Up</a></li>
 		   </ul>
 	      </nav>
 	   </div>
 	   <!--side pages-->
 	   <div class="side_page">
-	      <form method="post" action="index.php">
+	      <form method="post" action="index1.php">
 		    <table>
 			  <tr>
 			    <td colspan="2">Subscribe</td>
@@ -54,10 +54,36 @@
 		     <h3><a href="userRequest.php">Request</a></h3>
 		  </div>
 	   </div>
-	      
+	   
+	   <div class="side_page">
+	      <form method="post" action="index1.php">
+		    <table>
+			 <tr>
+			     <td colspan="2">Appointment Formation</td>
+			 </tr>
+			 <tr>
+			    <td>Name:</td>
+				<td><input type="text" name="name" placeholder="Name" /></td>
+			  </tr>
+			  <tr>
+			    <td>Address:</td>
+				<td><input type="text" name="address" placeholder="Address"></td>
+			  </tr>
+			   <tr>
+			    <td>Phone No.:</td>
+				<td><input type="text" name="phoneno" placeholder="phoneno"></td>
+			  </tr>
+			  <tr>
+			    <td></td>
+				<td><input type="submit" name="appointment" value="Submit Appointment" /></td>
+			  </tr>
+			</table>
+		  </form>
+	   </div>
+	     
 	   <!--body parts-->
 	   <div class="main_page_index">
-	       <table width="100%" border="0px" align="center">
+            <table width="100%" border="0px" align="center">
 		     <tr>
 			   <td></td>
 			   <td>
@@ -70,7 +96,6 @@
 			  <td></td>
 			 </tr>
 			</table>
-			
 			<form method="post" action="index.php">
 			  <table width="100%" border="0px">
 			     <tr>

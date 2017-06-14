@@ -33,7 +33,6 @@
 		    <ul>
 		      <li><a href="adminpage.php">Manage Event</a></li>
 			  <li><a href="request.php">Manage Request</a></li>
-			  
 			  <li><a href="subscription.php">View Subscription</a></li>
 			  <li><a href="viewuser.php">View User</a></li>
 			  <li><a href="appointment.php">Preist Appointment</a></li>

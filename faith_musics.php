@@ -21,13 +21,13 @@
 		     <li><a href="index.php">Home</a></li>
 			 <li><a href="about.php">About Us</a></li>
 			 <li><a href="faith.php">Faith Formation</a></li>
-			 
+			
 			 <li id="signing"><a href="signin.php">Sign In</a></li>
 			 <li id="signing"><a href="signup.php">Sign Up</a></li>
-			</ul>
+		   </ul>
 	      </nav>
 	   </div>
-	  <!--side pages-->
+	   <!--side pages-->
 	   <div class="side_page">
 	      <form method="post" action="index.php">
 		    <table>
@@ -46,28 +46,43 @@
 			</table>
 		  </form>
 	   </div>
-	   
 	   <!--body parts-->
-	   <div class="main_page">
-           <form action="signin.php" method="post">
-              <table width="350" border="1" align="center">
-	            <tr>
-	              <td>User Name:</td>
-	              <td><input type="text" name="username" placeholder="User Name"></td>
-	            </tr>
-	            <tr>
-	              <td>Password:</td>
-	              <td><input type="text" name="password" placeholder="Password"></td>
-	            </tr>
-	            <tr>
-	               <td></td>
-                   <td><input type="submit" value="Sign In" name="signin"></td>
-	            </tr>
-              </table>
-           </form>
+	   
+	   <div class="faith_page_audio_x">
+	       <form method="post" action="faith_musics.php">
+		    <table width="100%" border="0px">
+			   <tr>
+			      <td colspan="2" align="center">Musics Section</td>
+			   </tr>
+			   <tr>
+			      <td colspan="2" align="left">Musics 1</td>
+			   </tr>
+			   <tr>
+			     <td><audio src="media/audio/audio1.m4a" controls="controls" /></td>
+				 <td>BORN TO PRAISE</td>
+			   </tr>
+			   <tr>
+			      <td colspan="2" align="left">Musics 2</td>
+			   </tr>
+			   <tr>
+			     <td><audio src="media/audio/audio2.mp3" controls="controls" /></td>
+				 <td>Timro Jiwan Ati Amulya</td>
+			   </tr>
+			   <tr>
+			      <td colspan="2" align="left">Musics 3</td>
+			   </tr>
+			   <tr>
+			     <td><audio src="media/audio/audio3.mp3" controls="controls" /></td>
+				 <td>Mighty_To_Save</td>
+			   </tr>
+			   <tr>
+			     <td colspan="2" align="center"><a href="faith_picture.php">Picture...</a>  <a href="faith_vedio.php">Vedio...</a></td>
+			   </tr>
+			</table>
+		  </form>
 	   </div>
 	   
-	  <!--footer-->
+	   <!--footer-->
 	   <div class="footer_page">
 	      <h3 id="footer_home">@Copy Right 2017 Great Commession Church</h3>
 	   </div>
@@ -75,22 +90,9 @@
 	 </div>
   </body>
 </html>
-
 <?php
+  session_start();
   include("include/database.php");
-  if(isset($_POST['signin'])){
-	  $username=$_POST['username'];
-	  $password=$_POST['password'];
-	  $sql = "SELECT*FROM registration WHERE username='$username' AND password='$password' ";
-	  $result = mysqli_query($con,$sql);
-	  if(mysqli_fetch_array($result)){
-		  echo "<script>alert('Login Successful');
-		  window.location.replace('index1.php');
-		  </script>";
-	  }else{
-		  echo "<script>alert('Retry again')</script>";
-	  }
-  }
   if(isset($_POST['subscribe'])){
 	  $username=$_POST['username'];
 	  $password=$_POST['password'];

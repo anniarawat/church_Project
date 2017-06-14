@@ -82,7 +82,7 @@
 		     <li><a href="../index.php">Home</a></li>
 			 <li><a href="../about.php">About Us</a></li>
 			 <li><a href="../faith.php">Faith Formation</a></li>
-			 <li><a href="../status.php">Check Status</a></li>
+			
 			 <li id="signing"><a href="../include/logout.php">Sign Out</a></li>
 		   </ul>
 	      </nav>
@@ -106,6 +106,9 @@
 	      <form method="post" action ="appointment.php">
 		     <table width="350px" border="1px">
 			    <tr>
+				   <td colspan="2" align="center"><h3>Appointment Section</h3></td>
+				</tr>
+				<tr>
 				   <td>ID:</td>
 				   <td><input type="text" name="id" placeholder="ID" value="<?php echo $id;?>" /></td>
 				</tr>

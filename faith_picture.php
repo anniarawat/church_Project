@@ -47,50 +47,77 @@
 		  </form>
 	   </div>
 	   <!--body parts-->
-	   <div class="faith_page_image">
-	      <form method="post" action="faith.php">
+	   <div class="faith_page_image_x">
+	      <form method="post" action="faith_picture.php">
 		    <table width="100%" border="0px">
 			   <tr>
 			      <td colspan="2" align="center">Picture Section</td>
 			   </tr>
 			   <tr>
+			      <td colspan="2" align="left">Picture 1</td>
+			   </tr>
+			   <tr>
 			     <td><img src="media/image/img1.jpg" id="image" /></td>
-				 <td>Images for enlightenment</td>
+				 <td>Image of Our Choir</td>
 			   </tr>
 			   <tr>
-			      <td colspan="2">For More Picture.... <a href="faith_picture.php">Click Here</td>
-			   </tr>
-			</table>
-		  </form>
-	   </div>
-	   <div class="faith_page_video">
-	       <form method="post" action="faith.php">
-		    <table width="100%" border="0px">
-			   <tr>
-			      <td colspan="2" align="center">Video Section</td>
+			      <td colspan="2" align="left">Picture 2</td>
 			   </tr>
 			   <tr>
-			     <td><video src="media/video/video1.mp4" controls="controls" width="480px" height="320px" /></td>
-				 <td>Videos for Enlightenment</td>
+			     <td><img src="media/image/img2.jpg" id="image" /></td>
+				 <td>image of Our Church Members</td>
 			   </tr>
 			   <tr>
-			      <td colspan="2">For More Video....  <a href="faith_vedio.php">Click Here</td>
-			   </tr>
-			</table>
-		  </form>         
-	   </div>
-	   <div class="faith_page_audio">
-	       <form method="post" action="faith.php">
-		    <table width="100%" border="0px">
-			   <tr>
-			      <td colspan="2" align="center">Musics Section</td>
+			      <td colspan="2" align="left">Picture 3</td>
 			   </tr>
 			   <tr>
-			     <td><audio src="media/audio/audio1.m4a" controls="controls" /></td>
-				 <td>Audios for Enlightenment</td>
+			     <td><img src="media/image/img3.jpg" id="image" /></td>
+				 <td>Image of Crusade in 2014</td>
 			   </tr>
 			   <tr>
-			      <td colspan="2">For More Musics....  <a href="faith_musics.php">Click Here</td>
+			      <td colspan="2" align="left">Picture 4</td>
+			   </tr>
+			   <tr>
+			     <td><img src="media/image/img4.jpg" id="image" /></td>
+				 <td>Image of Crusade in 2015</td>
+			   </tr>
+			   <tr>
+			      <td colspan="2" align="left">Picture 5</td>
+			   </tr>
+			   <tr>
+			     <td><img src="media/image/img5.jpg" id="image" /></td>
+				 <td>Image of church service</td>
+			   </tr>
+			   <tr>
+			      <td colspan="2" align="left">Picture 6</td>
+			   </tr>
+			   <tr>
+			     <td><img src="media/image/img6.jpg" id="image" /></td>
+				 <td>Image of Crusade in 2015</td>
+			   </tr>
+			   <tr>
+			      <td colspan="2" align="left">Picture 7</td>
+			   </tr>
+			   <tr>
+			     <td><img src="media/image/img7.jpg" id="image" /></td>
+				 <td>Image of Crucade in 2016</td>
+			   </tr>
+			   <tr>
+			      <td colspan="2" align="left">Picture 8</td>
+			   </tr>
+			   <tr>
+			     <td><img src="media/image/img8.jpg" id="image" /></td>
+				 <td>Image of Crusade in 1017</td>
+			   </tr>
+			   <tr>
+			      <td colspan="2" align="left">Picture 9</td>
+			   </tr>
+			   <tr>
+			     <td><img src="media/image/img9.jpg" id="image" /></td>
+				 <td>image of Fresh air open campaign</td>
+			   </tr>
+			   <tr>
+			     <td colspan="2" align="center"><a href="faith_musics.php">Musics...</a>  <a href="faith_vedio.php">Video...</a></td>
 			   </tr>
 			</table>
 		  </form>

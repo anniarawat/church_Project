@@ -58,7 +58,7 @@
 	  $eventname=$_POST['eventname'];
 	  $eventdate=$_POST['eventdate'];
 	  $eventime=$_POST['eventime'];
-	  $sql="INSERT INTO eventmgmt(eventname,eventdate,eventtime)VALUES('$eventname','$eventdate','$eventime')";
+	  $sql="INSERT INTO eventmgmt(eventname,eventdate,eventime)VALUES('$eventname','$eventdate','$eventime')";
 	  $result=mysqli_query($con,$sql);
 	  if($result){
 		  echo "<script>alert('Event uploaded successfully');</script>";
@@ -91,7 +91,7 @@
 		     <li><a href="../index.php">Home</a></li>
 			 <li><a href="../about.php">About Us</a></li>
 			 <li><a href="../faith.php">Faith Formation</a></li>
-			 <li><a href="../status.php">Check Status</a></li>
+			 
 			 <li id="signing"><a href="../include/logout.php">Sign Out</a></li>
 		   </ul>
 	      </nav>
@@ -103,7 +103,6 @@
 		    <ul>
 		      <li><a href="adminpage.php">Manage Event</a></li>
 			  <li><a href="request.php">Manage Request</a></li>
-			  
 			  <li><a href="subscription.php">View Subscription</a></li>
 			  <li><a href="viewuser.php">View User</a></li>
 			  <li><a href="appointment.php">Preist Appointment</a></li>
@@ -116,6 +115,9 @@
 	      <form method="post" action ="adminpage.php">
 		     <table width="350px" border="1px">
 			    <tr>
+				   <td colspan="2" align="center"><h3>Event Manage Section</h3></td>
+				</tr>
+				<tr>
 				   <td>Event ID:</td>
 				   <td><input type="text" name="id" placeholder="Event ID" value="<?php echo $id;?>" /></td>
 				</tr>
@@ -125,11 +127,11 @@
 				</tr>
 				<tr>
 				  <td>Event Date</td>
-				  <td><input type="date" name="eventdate" placeholder="Event Date"  value="<?php echo $eventdate;?>"/></td>
+				  <td><input type="text" name="eventdate" placeholder="Event Date"  value="<?php echo $eventdate;?>"/></td>
 				</tr>
 				<tr>
 				  <td>Event Time</td>
-				  <td><input type="time" name="eventime" placeholder="Event Time"  value="<?php echo $eventime;?>"/></td>
+				  <td><input type="text" name="eventime" placeholder="Event Time"  value="<?php echo $eventime;?>"/></td>
 				</tr>
 				<tr>
 				  <td colspan="2" align="center">

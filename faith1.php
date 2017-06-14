@@ -3,7 +3,7 @@
   <head>
      <title>Church Management System</title><!--title of the webpage-->
 	 <!--css for index.php pages-->
-	 <link type="text/css" rel="stylesheet" href="css/stylesheet_index_pages.css">
+	 <link type="text/css" rel="stylesheet" href="../css/stylesheet_index_pages.css">
   </head>
   <body>
      <!--main  body-->
@@ -18,18 +18,18 @@
 	   <div>
 	     <nav id="nav_page">
 	       <ul>
-		     <li><a href="index.php">Home</a></li>
-			 <li><a href="about.php">About Us</a></li>
-			 <li><a href="faith.php">Faith Formation</a></li>
+		     <li><a href="../index1.php">Home</a></li>
+			 <li><a href="about1.php">About Us</a></li>
+			 <li><a href="faith1.php">Faith Formation</a></li>
 			
-			 <li id="signing"><a href="signin.php">Sign In</a></li>
-			 <li id="signing"><a href="signup.php">Sign Up</a></li>
+			 <li id="signing"><a href="signout1.php">Sign Out</a></li>
+			 <li id="signing"><a href="../signup.php">Sign Up</a></li>
 		   </ul>
 	      </nav>
 	   </div>
 	   <!--side pages-->
 	   <div class="side_page">
-	      <form method="post" action="index.php">
+	      <form method="post" action="faith1.php">
 		    <table>
 			  <tr>
 			    <td>User Name:</td>
@@ -48,17 +48,17 @@
 	   </div>
 	   <!--body parts-->
 	   <div class="faith_page_image">
-	      <form method="post" action="faith.php">
+	      <form method="post" action="faith1.php">
 		    <table width="100%" border="0px">
 			   <tr>
 			      <td colspan="2" align="center">Picture Section</td>
 			   </tr>
 			   <tr>
-			     <td><img src="media/image/img1.jpg" id="image" /></td>
-				 <td>Images for enlightenment</td>
+			     <td><img src="../media/image/img1.jpg" id="image" /></td>
+				 <td>Image Description .............................</td>
 			   </tr>
 			   <tr>
-			      <td colspan="2">For More Picture.... <a href="faith_picture.php">Click Here</td>
+			      <td colspan="2">For More Picture.... <a href="faith_picture1.php">Click Here</td>
 			   </tr>
 			</table>
 		  </form>
@@ -70,11 +70,11 @@
 			      <td colspan="2" align="center">Video Section</td>
 			   </tr>
 			   <tr>
-			     <td><video src="media/video/video1.mp4" controls="controls" width="480px" height="320px" /></td>
-				 <td>Videos for Enlightenment</td>
+			     <td><video src="../media/video/video1.mp4" controls="controls" width="480px" height="320px" /></td>
+				 <td>Video Description............................</td>
 			   </tr>
 			   <tr>
-			      <td colspan="2">For More Video....  <a href="faith_vedio.php">Click Here</td>
+			      <td colspan="2">For More Video....  <a href="faith_vedio1.php">Click Here</td>
 			   </tr>
 			</table>
 		  </form>         
@@ -86,11 +86,11 @@
 			      <td colspan="2" align="center">Musics Section</td>
 			   </tr>
 			   <tr>
-			     <td><audio src="media/audio/audio1.m4a" controls="controls" /></td>
-				 <td>Audios for Enlightenment</td>
+			     <td><audio src="../media/audio/audio1.m4a" controls="controls" /></td>
+				 <td>Musics Description..............................</td>
 			   </tr>
 			   <tr>
-			      <td colspan="2">For More Musics....  <a href="faith_musics.php">Click Here</td>
+			      <td colspan="2">For More Musics....  <a href="faith_musics1.php">Click Here</td>
 			   </tr>
 			</table>
 		  </form>
@@ -106,7 +106,7 @@
 </html>
 <?php
   session_start();
-  include("include/database.php");
+  include("database.php");
   if(isset($_POST['subscribe'])){
 	  $username=$_POST['username'];
 	  $password=$_POST['password'];

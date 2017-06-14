@@ -79,13 +79,11 @@
              loved us unconditionally ,died for our sins, resurrected for our victory and is with us forever. 
              His name is Jesus Christ.
 		  </p><br>
-			 
-		  
 	   </div>
 	   
 	   <!--footer-->
 	   <div class="footer_page">
-	       <h3 id="footer_home">@Copy Right 2017 Living Church</h3>
+	       <h3 id="footer_home">@Copy Right 2017 Great Commession Church</h3>
 	   </div>
 	   
 	 </div>
