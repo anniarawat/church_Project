@@ -21,7 +21,6 @@
 		     <li><a href="../index1.php">Home</a></li>
 			 <li><a href="about1.php">About Us</a></li>
 			 <li><a href="faith1.php">Faith Formation</a></li>
-			
 			 <li id="signing"><a href="signout1.php">Sign Out</a></li>
 			 <li id="signing"><a href="../signup.php">Sign Up</a></li>
 		   </ul>

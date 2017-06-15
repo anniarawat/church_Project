@@ -21,7 +21,7 @@
 		     <li><a href="index.php">Home</a></li>
 			 <li><a href="about.php">About Us</a></li>
 			 <li><a href="faith.php">Faith Formation</a></li>
-			 
+			 <li><a href="contact.php">Contact Us</a></li>
 			 <li id="signing"><a href="signin.php">Sign In</a></li>
 			 <li id="signing"><a href="signup.php">Sign Up</a></li>
 			</ul>
@@ -57,7 +57,7 @@
 	            </tr>
 	            <tr>
 	              <td>Password:</td>
-	              <td><input type="text" name="password" placeholder="Password"></td>
+	              <td><input type="password" name="password" placeholder="Password"></td>
 	            </tr>
 	            <tr>
 	               <td></td>

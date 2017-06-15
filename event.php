@@ -21,7 +21,7 @@
 		     <li><a href="../index.php">Home</a></li>
 			 <li><a href="../about.php">About Us</a></li>
 			 <li><a href="../faith.php">Faith Formation</a></li>
-			 <li><a href="../status.php">Check Status</a></li>
+			 <li><a href="../contact.php">Contact Us</a></li>
 			 <li id="signing"><a href="../include/logout.php">Sign Out</a></li>
 		   </ul>
 	      </nav>
@@ -35,7 +35,7 @@
 			  <li><a href="request.php">Manage Request</a></li>
 			  <li><a href="subscription.php">View Subscription</a></li>
 			  <li><a href="viewuser.php">View User</a></li>
-			  <li><a href="appointment.php">Preist Appointment</a></li>
+			  <li><a href="appointment.php">Priest Appointment</a></li>
 		    </ul>
 		  </div>
 	   </div>

@@ -3,7 +3,7 @@
   <head>
      <title>Church Management System</title><!--title of the webpage-->
 	 <!--css for index.php pages-->
-	 <link type="text/css" rel="stylesheet" href="../css/stylesheet_index_pages.css">
+	 <link type="text/css" rel="stylesheet" href="css/stylesheet_index_pages.css">
   </head>
   <body>
      <!--main  body-->
@@ -18,17 +18,18 @@
 	   <div>
 	     <nav id="nav_page">
 	       <ul>
-		     <li><a href="../index1.php">Home</a></li>
-			 <li><a href="about1.php">About Us</a></li>
-			 <li><a href="faith1.php">Faith Formation</a></li>
-			 <li id="signing"><a href="signout1.php">Sign Out</a></li>
-			 <li id="signing"><a href="../signup.php">Sign Up</a></li>
+		     <li><a href="index.php">Home</a></li>
+			 <li><a href="about.php">About Us</a></li>
+			 <li><a href="faith.php">Faith Formation</a></li>
+			 <li><a href="contact.php">Contact Us</a></li>
+			 <li id="signing"><a href="signin.php">Sign In</a></li>
+			 <li id="signing"><a href="signup.php">Sign Up</a></li>
 		   </ul>
 	      </nav>
 	   </div>
-	   <!--side pages-->
+	 <!--side pages-->
 	   <div class="side_page">
-	      <form method="post" action="faith_musics1.php">
+	      <form method="post" action="index.php">
 		    <table>
 			  <tr>
 			    <td>User Name:</td>
@@ -45,53 +46,34 @@
 			</table>
 		  </form>
 	   </div>
-	   <!--body parts-->
 	   
-	   <div class="faith_page_audio_x">
-	       <form method="post" action="faith_musics1.php">
-		    <table width="100%" border="0px">
-			   <tr>
-			      <td colspan="2" align="center">Musics Section</td>
-			   </tr>
-			   <tr>
-			      <td colspan="2" align="left">Musics Title 1</td>
-			   </tr>
-			   <tr>
-			     <td><audio src="../media/audio/audio1.m4a" controls="controls" /></td>
-				 <td>Musics Description............</td>
-			   </tr>
-			   <tr>
-			      <td colspan="2" align="left">Musics Title 2</td>
-			   </tr>
-			   <tr>
-			     <td><audio src="../media/audio/audio2.mp3" controls="controls" /></td>
-				 <td>Musics Description............</td>
-			   </tr>
-			   <tr>
-			      <td colspan="2" align="left">Musics Title 3</td>
-			   </tr>
-			   <tr>
-			     <td><audio src="../media/audio/audio3.mp3" controls="controls" /></td>
-				 <td>Musics Description............</td>
-			   </tr>
-			   <tr>
-			     <td colspan="2" align="center"><a href="faith_picture1.php">Picture...</a>  <a href="faith_vedio1.php">Vedio...</a></td>
-			   </tr>
-			</table>
-		  </form>
+	   <!--body parts-->
+	   <div class="main_page">
+	      <h1>Contact Us</h1></br></br>
+		  <p>G.PO.BOX.NO- 8975 </p>
+		  <p>EPC-2513 </p>
+		  <p>Kathmandu,Nepal</p></br>
+		  <h2>Phone: </h2>
+		  <p>+977-9802068800 (Nepal)</p>
+		  <p>+14243827371 (USA)</br>
+		  <p>+977 9851063350 (Christian Dishan)</p>
+		  <p>+977 9849406847 (Manoj Jubal)</p></br></br>
+          <p>Email: philipfisherman@gmail.com
+			/info@ifgfgccmi.org</p>
 	   </div>
 	   
 	   <!--footer-->
 	   <div class="footer_page">
-	      <h3 id="footer_home">@Copy Right 2017 Great Commession Church</h3>
+	       <h3 id="footer_home">@Copy Right 2017 Great Commession Church</h3>
 	   </div>
 	   
 	 </div>
   </body>
 </html>
+
 <?php
   session_start();
-  include("database.php");
+  include("include/database.php");
   if(isset($_POST['subscribe'])){
 	  $username=$_POST['username'];
 	  $password=$_POST['password'];

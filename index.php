@@ -24,6 +24,7 @@
 		     <li><a href="index.php">Home</a></li>
 			 <li><a href="about.php">About Us</a></li>
 			 <li><a href="faith.php">Faith Formation</a></li>
+			 <li><a href="contact.php">Contact Us</a></li>
 			 <li id="signing"><a href="signin.php">Sign In</a></li>
 			 <li id="signing"><a href="signup.php">Sign Up</a></li>
 		   </ul>
@@ -62,9 +63,9 @@
 			   <td></td>
 			   <td>
                 <div style="max-width:500px">
-                  <img class="imageSlider" src="media/image/img1.jpg" style="width:100%; height:300px">
-                  <img class="imageSlider" src="media/image/img2.jpg" style="width:100%; height:300px">
-                  <img class="imageSlider" src="media/image/img3.jpg" style="width:100%; height:300px">
+                  <img class="imageSlider" src="media/image/img1.jpg" style="width:150%; height:300px">
+                  <img class="imageSlider" src="media/image/img2.jpg" style="width:150%; height:300px">
+                  <img class="imageSlider" src="media/image/img3.jpg" style="width:150%; height:300px">
                 </div>
 			  </td>
 			  <td></td>
@@ -75,6 +76,7 @@
 			  <table width="100%" border="0px">
 			     <tr>
 				    <td>
+					<fieldset >
 					    <table width="100%" border="0px">
 						    <tr>
 							   <td colspan="3" align="center"><h2>Event Management</h2></td>
@@ -97,8 +99,10 @@
 			                </tr>
 							<?php }?>
 						</table>
+					</fieldset>
 					</td>
 					<td>
+					<fieldset>
 					    <table width="100%" border="0px">
 						    <tr>
 							   <td colspan="3" align="center"><h2>Appointment</h2></td>
@@ -121,6 +125,7 @@
 			                </tr>
 							<?php }?>
 						</table>
+					</fieldset>
 					</td>
 				 </tr>
 			  </table>
